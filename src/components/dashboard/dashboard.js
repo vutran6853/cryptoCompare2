@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import css from './movies.css';
+import css from './dashboard.scss';
 
-class MoviesDashboard extends Component {
+class Dashboard extends Component {
     constructor(props) {
         super(props);
         this.state = { 
@@ -12,10 +12,11 @@ class MoviesDashboard extends Component {
         console.log(`this.props`, this.props)
         return (
             <div className='box1'>
-                <p>Movies Components</p>
+              <p>Dashboard</p>
+               
             </div>
         );
     }
 }
 
-export default MoviesDashboard;
+export default Dashboard;
